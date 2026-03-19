@@ -11,11 +11,19 @@ simple node js application
 
         - Create a App Services -----> Web App Services 
 
-        - Download the - Publish Profile 
-              |
-              |
-              |------- Download publish profile Basic authentication is disabled. azure   # this error
+        - Download
 
+            - Download publish profile 
+              |
+              |
+              |------- Download publish profile Basic authentication is disabled. azure   # this error will get 
+                              |
+                              |
+                              |-------- Settings 
+                                         |--Configuration 
+                                                |--General settings
+                                                    |
+                                                    |--- Platform settings SCM Basic Auth Publishing Credentials (Enable the - CheckBox)
 
 
     - Login to Github
@@ -27,4 +35,33 @@ simple node js application
 
         - Go To --- Settings ----> Secrets and Variables 
                                           |
-                                          |------- Actions ---> New Repository Secret           
+                                          |------- Actions ---> New Repository Secret
+                                                                 |
+                                                                 |----- AZURE_WEBAPP_NAME (i.e -node-welcome-application)
+                                                                 |
+                                                                 |----- AZURE_WEBAPP_PUBLISH_PROFILE (i.e - Download publish profile)           
+
+
+
+### Verify and Monitor 
+
+    - Open - App Services 
+               |
+               |--- select the (create web app service i.e- node-welcome-application)
+
+
+        - Copy 
+           |
+           |-Default domain
+             |-(i.e - https://node-welcome-application-f9f8fnb9d7bgcthq.canadacentral-01.azurewebsites.net/)            
+
+
+    
+    - Github
+        |--Repo
+            |---- Actions (Open In Newtab and Check the Flow)
+
+
+
+    - refere to --- images for reference      
+                
