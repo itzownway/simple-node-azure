@@ -3,6 +3,9 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
+console.log('Starting app...');
+console.log('PORT =', PORT);
+
 app.get('/', (req, res) => {
   res.send('Hello from Node.js app deployed on Azure using GitHub Actions!');
 });
@@ -11,6 +14,6 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
 });

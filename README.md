@@ -15,3 +15,16 @@ simple node js application
               |
               |
               |------- Download publish profile Basic authentication is disabled. azure   # this error
+
+
+
+    - Login to Github
+
+        - Create Github Repo 
+
+        - Push your code 
+
+
+        - Go To --- Settings ----> Secrets and Variables 
+                                          |
+                                          |------- Actions ---> New Repository Secret           
