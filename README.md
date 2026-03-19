@@ -2,10 +2,16 @@
 simple node js application
 
 
+Learn : 
+   
+    - https://docs.github.com/en/actions/how-tos/deploy/deploy-to-third-party-platforms/nodejs-to-azure-app-service
+    - https://github.com/Azure/webapps-deploy
+
+
 ## Steps To Deploy Using Github Actions and Azure 
 
    
-   - Login to Azure 
+    - Login to Azure 
         
         - Create a Resource Grouop
 
