@@ -70,4 +70,31 @@ Learn :
 
 
     - refere to --- images for reference      
-                
+
+
+
+### How to Run This Project At Local Environment 
+
+    - cd Documents/simple-node-azure
+    
+    - npm install
+
+    - npm start 
+
+    - node server.js 
+
+    - http://localhost:3000/
+
+
+
+### How to Start From Docker File 
+
+
+    - Build the Docker Image (Dockerfile   # file name)
+            
+            - sudo docker build -t simple-node-app .
+
+    - Run the Application From Docker 
+
+         -  sudo docker run -p 3000:3000 simple-node-app 
+      
