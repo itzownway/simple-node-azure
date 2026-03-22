@@ -97,4 +97,12 @@ Learn :
     - Run the Application From Docker 
 
          -  sudo docker run -p 3000:3000 simple-node-app 
+
+
+
+## Docker Command
+     
+        - docker --version
+        - docker ps 
+        - docker ps -a
       
