@@ -106,3 +106,50 @@ Learn :
         - docker ps 
         - docker ps -a
       
+
+
+## Once - Application Run and Deploy - How to Publish the Image to Docker Hub 
+
+     
+     - Login to Docker Hub 
+          
+          - docker login 
+
+
+     - Create the Tag For Docker Image 
+
+         - sudo docker tag simple-node-app itzownway/simple-node-app:latest
+         - sudo docker images 
+
+
+     - Pulbish the Image to Docker
+         
+         - sudo docker push itzownway/simple-node-app:latest
+
+
+     - Verify the Docker Image 
+
+        - 👉 https://hub.docker.com/repositories
+
+              - itzownway/simple-node-app
+
+     - Now Ask People To Pull the Image and Use
+
+              - docker run -p 3000:3000 itzownway/simple-node-app:latest
+
+
+
+
+
+### Docker Permission Issue 
+
+ 
+     - sudo usermod -aG docker $USER
+
+     - newgrp docker
+
+     - docker ps
+
+     - docker info | grep Username
+
+     - 
