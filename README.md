@@ -1,6 +1,6 @@
 # simple-node-azure
 simple node js application
-
+![Image](https://github.com/user-attachments/assets/64f90c2d-80b1-4296-9eea-e1d7423fe32f)
 
 Learn : 
    
