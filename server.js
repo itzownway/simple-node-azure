@@ -7,7 +7,7 @@ console.log('Starting app...');
 console.log('PORT =', PORT);
 
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js app deployed on Azure using GitHub Actions!');
+  res.send('"Running from Docker');
 });
 
 app.get('/health', (req, res) => {
